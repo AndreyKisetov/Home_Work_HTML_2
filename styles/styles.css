@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Bauhaus';
+    src: url('fonts/bauhaus.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/bauhaus.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/bauhaus.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/bauhaus.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/bauhaus.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/bauhaus.svg#bauhaus') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Catorze27Style1-SemiBold';
+    src: url('fonts/catorze27style1-semibold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/catorze27style1-semibold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/catorze27style1-semibold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/catorze27style1-semibold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/catorze27style1-semibold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/catorze27style1-semibold.svg#catorze27style1-semibold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-family: 'Bauhaus', sans-serif;
+    font-size: 24px;
+    background-image: url("../imgs/background.jpg");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+}
+
+nav {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+nav ul {
+    display: grid;
+}
+nav li {
+    float:center;
+}
+
+
+.other_font {
+    font-family: 'Catorze27Style1-SemiBold', sans-serif;
+    font-size: 28;
+}
+
+.pic_size {
+    width: 1000px;
+}
+
+.small_pic_size {
+    width: 500px;
+}
